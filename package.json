@@ -1,0 +1,22 @@
+{
+  "name": "courses-testing",
+  "version": "1.0.0",
+  "description": "testing practice with faztcode",
+  "main": "src",
+  "type": "module",
+  "scripts": {
+    "test": "set NODE_OPTIONS=--experimental-vm-modules && jest --detectOpenHandles",
+    "start": "node src"
+  },
+  "keywords": [],
+  "author": "Jochizan <remnyachizot2015@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "jest": "^27.2.5",
+    "supertest": "^6.1.6"
+  }
+}
